@@ -1,9 +1,9 @@
-function retornaNome (parametro, parametro2) {
+function hello (parametro, parametro2) {
     parametro = "Hello,";
     return parametro.concat(" ", parametro2);
 }
 
 
-let nome = retornaNome(" ", "World!");
+let nome = hello (" ", "World!");
 
 console.log(nome);
