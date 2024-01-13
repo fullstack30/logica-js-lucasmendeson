@@ -1,9 +1,7 @@
-function hello (parametro, parametro2) {
-    parametro = "Hello,";
-    return parametro.concat(" ", parametro2);
+function hello(frase = "World") {
+    
+    if (typeof frase != 'string') {
+        frase = "World";
+    }
+    return "Hello, " + frase + "!";
 }
-
-
-let nome = hello (" ", "World!");
-
-console.log(nome);
