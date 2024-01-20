@@ -1,11 +1,4 @@
 
-function retornaNome (parametro, parametro2) {
-    parametro = "Hello,";
-    return parametro.concat(" ", parametro2);
-}
-
-
-let nome = retornaNome(" ", "World!");
 
 function hello(frase = "World") {
     
@@ -14,5 +7,4 @@ function hello(frase = "World") {
     }
     return "Hello, " + frase + "!";
 }
-console.log(nome);
 
